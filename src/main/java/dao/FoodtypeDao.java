@@ -5,7 +5,7 @@ import java.util.List;
 public interface FoodtypeDao {
 
     //create
-    void add (FoodtypeDao foodtypeDao);
+    void add (Foodtype foodtype);
     //void addFoodtypeTpRestaurant(FoodtypeDao foodtypeDaO, Restaurant restaurant);
 
     //read

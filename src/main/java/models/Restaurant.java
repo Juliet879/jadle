@@ -82,6 +82,10 @@ public class Restaurant {
         this.email = email;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -99,4 +103,5 @@ public class Restaurant {
     public int hashCode() {
         return Objects.hash(name, address, zipcode, phone, website, email);
     }
+
 }
